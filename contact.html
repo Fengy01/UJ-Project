@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+<!-- header section starts -->
+<header class="header">
+    
+    <section class="flex">
+
+        <a href="home.html" class="logo">Tasty Treats😋</a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="orders.html">Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <div class="profile">
+            <p class="name">Marvel Samuel</p>
+            <div class="flex">
+                <a href="profile.html" class="btn">profile</a>
+                <a href="#" class="delete-btn">logout</a>
+            </div>
+            <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+        </div>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<div class="heading">
+    <h3>contact us</h3>
+    <p><a href="home.html">home</a><span> / contact</span></p>
+</div>
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.png" alt="">
+        </div>
+
+        <form action="" method="post">
+            <h3>tell us something!</h3>
+            <input type="text" name="name" maxlength="50" class="box"
+            placeholder="enter your name" required>
+            <input type="number" name="number" min="0" max="9999999999" class="box"
+            placeholder="enter your number" required onkeypress="if (this.value.length
+            == 10) return false;">
+            <input type="email" name="email" maxlength="50" class="box"
+            placeholder="enter your email" required>
+            <textarea name="msg" class="box" required placeholder="enter your message" 
+            maxlength="500" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends   -->
+
+
+
+
+
+
+
+
+<!-- footer section starts -->
+
+<footer class="footer">
+
+    <section class="grid">
+
+        <div class="box">
+            <img src="images/email-icon.png" alt="">
+            <h3>our email</h3>
+            <a href="mailto:flickersinternational@gmail.com">flickersinternational@gmail.com</a>
+            <a href="mailto:fengywsamuel@gmail.com">fengywsamuel@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <img src="images/clock-icon.png" alt="">
+            <h3>opening hours</h3>
+            <p>00:07am to 00:10pm</p>
+        </div>
+        
+        <div class="box">
+            <img src="images/map-icon.png" alt="">
+            <h3>our address</h3>
+            <a href="#">plateau, Nigeria - 100001</a>
+        </div>
+
+        <div class="box">
+            <img src="images/phone-icon.png" alt="">
+            <h3>our number</h3>
+            <a href="tel:+2347034186259">0703-418-6259</a>
+            <a href="tel:+2349011165000">0901-116-5000</a>
+        </div>
+
+    </section>
+
+    <div class="credit">created by <span>Feng Weng Samuel</span> | all rights reserved!</div>
+
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
